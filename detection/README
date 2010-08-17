@@ -1,0 +1,20 @@
+DETECTION MODULE 
+Author: Elena Holobiuc
+
+Detection module - it can be used to detect one or more faces from an input image.
+The detection parameters can be viewed in the Detection.h file.
+
+The parameters are set with the initialize method in a vector of char*. If you want to use the default parameters, do not
+call the initialize method.
+
+To test the detection module perform the following commands:
+
+make 
+./detection fileName
+
+The fileName parameter is a file in which you can list the images you want to recognize people from ( for example faces.in).
+The results will be located in the result folder ( if it does not exist, it will be created automatically).
+
+You can find test images in database1, database2 and database3.
+
+
