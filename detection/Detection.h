@@ -11,8 +11,6 @@
          --size=min_template_size_value
          --resultImageWidth=width_of_detected_face_image
          --resultImageHeight=height_of_detected_face_image
- *
- * Created on May 18, 2010, 3:34 PM
  */
 
 #ifndef _DETECTION_H
