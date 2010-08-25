@@ -1,5 +1,5 @@
 /* 
- * File:   Detection.h 
+ * File:   Detection.h
  * Author: Elena Holobiuc
  *
  * Detection module - it can be used to detect one or more faces from an
