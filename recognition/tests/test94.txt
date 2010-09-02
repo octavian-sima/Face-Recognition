@@ -1,0 +1,17 @@
+9338489 /home/nanan/Desktop/licenta/faces_db/faces94/9338489.12.jpg
+9338489 /home/nanan/Desktop/licenta/faces_db/faces94/9338489.17.jpg
+asheal /home/nanan/Desktop/licenta/faces_db/faces94/asheal.4.jpg
+bplyce /home/nanan/Desktop/licenta/faces_db/faces94/bplyce.12.jpg
+bplyce /home/nanan/Desktop/licenta/faces_db/faces94/bplyce.17.jpg
+cjsake /home/nanan/Desktop/licenta/faces_db/faces94/cjsake.19.jpg
+dcbowe /home/nanan/Desktop/licenta/faces_db/faces94/dcbowe.14.jpg
+dcbowe /home/nanan/Desktop/licenta/faces_db/faces94/dcbowe.11.jpg
+ggrego /home/nanan/Desktop/licenta/faces_db/faces94/ggrego.10.jpg
+ggrego /home/nanan/Desktop/licenta/faces_db/faces94/ggrego.17.jpg
+namull /home/nanan/Desktop/licenta/faces_db/faces94/namull.11.jpg
+namull /home/nanan/Desktop/licenta/faces_db/faces94/namull.17.jpg
+sidick /home/nanan/Desktop/licenta/faces_db/faces94/sidick.18.jpg
+swsmit /home/nanan/Desktop/licenta/faces_db/faces94/swsmit.4.jpg
+swsmit /home/nanan/Desktop/licenta/faces_db/faces94/swsmit.18.jpg
+
+

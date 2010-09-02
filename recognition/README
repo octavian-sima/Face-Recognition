@@ -1,0 +1,57 @@
+RECOGNITION MODULE
+Author: Octavian Sima
+
+It recognizes persons provided by the detection module using the Eigenfaces algorithm.
+The module is very flexible and all the available options are detailed in the Recognition.h file.
+To take advantage of the OOP style, the module implements the IRecognition interface,
+same as the Detection module implements the IDetection interface.
+
+The main options are set by calling the "initialize" function. If you ommit this, default
+options will be used.
+Before recognizing a face, you must call the "train" function. Its parameters are explained
+in Recognition.h.
+
+Training data is stored in output files as images and xml.
+
+HOWTO USE:
+	1. instantiate the recognition Class:  Recognition* recognition = new Recognition();
+	2. call recognition->initialize(...);
+	3. perform training : recognition->train(...);
+	4(optional)  save data: recognition->saveTrainingData(TRAINING_DATA_FILE);
+	to release memory. When you need training data, call recognition->loadTrainingData(...)/
+	5. to recognize new faces, call recognition->recognizeFaces(...)
+
+To test recognition performance, use the Test.cpp file. It calls
+recognition->testRecognitionPerformance(...) for different test files from "tests" folder.
+For the default test use the next steps:
+ 	1. make
+	2. make train
+	3. make test
+
+for other options, call:
+	./recognition 
+and the following text will be shown:
+
+Usage:
+For training application with default options run as
+	 ./recognition train 
+For training application from database (such person_database) run as
+	 ./recognition train database databaseFolderPath 
+For training application from a file (ex in tests/ ) run as
+	 ./recognition train file trainFilePath 
+For testing application with default options run as
+	 ./recognition test 
+For testing application from a file (ex in tests/ ) run as
+	 ./recognition test testFilePath recognitionThreshold
+For help run as 
+	 ./recognition help
+	
+
+	
+
+
+
+
+
+
+

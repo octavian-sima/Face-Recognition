@@ -1,0 +1,10 @@
+4 ../person_database/s4/1.pgm
+4 ../person_database/s4/2.pgm
+4 ../person_database/s4/3.pgm
+7 ../person_database/s7/4.pgm
+7 ../person_database/s7/5.pgm
+13 ../person_database/s13/3.pgm
+13 ../person_database/s13/4.pgm
+19 ../person_database/s19/2.pgm
+19 ../person_database/s19/3.pgm
+19 ../person_database/s19/10.pgm
