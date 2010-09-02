@@ -1,0 +1,11 @@
+CAMERA MODULE
+Author: Elena Holobiuc 
+
+This module opens a webcam and recognizes the persons in front of the PC.
+If the persons are not into the database, it will return unknown. 
+
+
+Usage:
+make
+./camera train firstname lastname - it adds a new person into the database and pictures of that person 
+./camera test - recognizes the persons in front of the camera
