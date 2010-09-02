@@ -1,0 +1,11 @@
+DATABASE MODULE
+Author: Elena Holobiuc
+
+This module is used to call the stored procedures from the MySQL database.
+In the database_proc folder you can see the existing procedures.
+To call a procedure from the database in a C program create a new Database instance and call the connect method.
+In Database.h file you can see which function to use in order to call a specific procedure and the required parameters. 
+You can modify the HOST, USER, PASSWORD and DATABASE from the header file. 
+
+In order to populate the `persons` table with the people from person_database, run ./populateTable.sh MySqlUser 
+
