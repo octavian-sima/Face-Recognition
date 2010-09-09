@@ -1,0 +1,20 @@
+SERVER MODULE 
+Author: Octavian Sima 
+
+This module is used for the face recognition mobile phone application,
+but it can be easilly adapted for other applications.
+The server can be run on different platforms setting the "reverseOrder" field 
+for BigEndian or LittleEndian byte orders.
+It is able to handle multiple clients starting a new thread when a client
+connects. The thread deals with image file transfer and detection recognition stuff.
+
+HOWTO RUN:
+	1.   make
+	2.   ./run_server listenPort
+
+If you want to change byte order, modify reverseBytes to true/false in Run_Server.cpp.
+To deactivate ACK after each message, modify USE_ACK constant value in Server.h.
+To hide debug messages, modify DEBUG_ON constant value in Server.h.
+
+Other options are available in Server.h.
+ 
