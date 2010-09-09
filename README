@@ -1,0 +1,30 @@
+FACE DETECTION + FACE RECOGNITION Project
+Authors: Octavian Sima and Elena Holobiuc
+
+This project contains more modules as follow:
+	- detection : detects a face from an image and uses processing techniques
+	- recognition : recognizes faces provided by the detection module
+	- sql_database : stores information about persons
+ 	- server : multi-threaded and platform independent, serves clients as the mobile phone application
+	- Mobile : mobile phone face recognition application
+	- camera : webcam real-time face recognition module
+	- person_database: face images database used for training (from Olivetti Research Lab)
+	- interfaces : interfaces in OOP style for detection and recognition modules
+
+Each subfolder contains its own README file where you can find details about how to use or run the modules.
+
+To develop this project, we have used the OpenCV library version 2.0. It may contain some 
+incompatibilities with OpenCV 1.0. OpenCV libs and INSTALL_GUIDE can be found in OpenCV_lib folder.
+You also need MySql stuff as:
+	- MySql server
+	- MySql client
+	- mysql-devel
+	- mysql.h
+All can be found at http://dev.mysql.com/downloads .
+
+Before running for the first time the application run initDatabase.sh from sql_database folder in order to create
+the table that will store detected persons. 
+How to run it:
+./initDatabase.sh MySqlUser
+When executing, the script will ask for the user password.
+
