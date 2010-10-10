@@ -1,0 +1,9 @@
+This module represents the Mobile Phone Application of our project (iKnowU).
+The code represents the Netbeans IDE 6.8 project and you can import this project if you want to improve it.
+If using the application is all you want to do, then just copy and install the iKnowU.jar or iKnowU.jad on your phone.
+
+The application aims to recognize the persons from a photo using a dedicated server. To do that, you should choose a server address (IP) and a listen port using the Settings button from Menu. These settings should be provided by your administrator. The maximum matched faces refers to the maximum number of candidates for each detected face. 
+The Select Photo button from Menu allows you to select a face image using the FileBrowser.  Before sending the photo to the server (clicking on Recognize button), you will be able to see a preview of the selected photo.
+For each detected face you will receive a "maximum matched number of faces" which you have selected in the first step. Each candidate will have a sample face photo followed by information extracted from the database (Name, Address, Phone Number, Ocuppation and a recognition confidence percent). Finally, you may choose from these candidates the one you consider to be the best.
+
+
